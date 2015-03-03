@@ -21,6 +21,7 @@ var Metalsmith  = require('metalsmith'),
     serve       = require('metalsmith-serve');
 
 // Registro de Partials
+handlebars.registerPartial('head', fs.readFileSync(__dirname + '/templates/partials/head.hbt').toString());
 handlebars.registerPartial('header', fs.readFileSync(__dirname + '/templates/partials/header.hbt').toString());
 handlebars.registerPartial('footer', fs.readFileSync(__dirname + '/templates/partials/footer.hbt').toString());
 

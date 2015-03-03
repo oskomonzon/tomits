@@ -17,7 +17,7 @@ $('.socialItem').hover(
   function(e) {
     TweenMax.to($(this).find('.socialLink'), 1, {rotationY:0, ease:Back.easeOut});
   }
-);google.maps.event.addDomListener(window, 'load', init);
+);/*google.maps.event.addDomListener(window, 'load', init);
     var map;
     function init() {
         var mapOptions = {
@@ -98,7 +98,7 @@ link = web;
         });
  }
 }
-/**
+*//**
  * main.js
  * Todo el javascript del directorio 'scripts' va a ser concatenado y minimizado en 'build/scripts/main.min.js'.
  * El javascript de la carpeta 'vendor' va a ser copiado 'build/scripts/vendor/' sin modificaciones.

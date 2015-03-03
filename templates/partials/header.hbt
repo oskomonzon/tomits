@@ -1,7 +1,7 @@
 <!-- Header -->
 <header id="hasParticles" class="header innerBottomShadow gradient">
   <img class="header-image border-mid rounded isHidden fadeInBottom" src="/images/avatar.jpg" alt="OskO" width="200" height="200">
-  <h1 class="header-title isHidden fadeInBottom">OskO</h1>
+  <h1 class="header-title isHidden fadeInBottom">Funksmith</h1>
   <h2 class="header-subtitle isHidden fadeInBottom">[ {{ title }} ]</h2>
   
   <!-- Social nav -->

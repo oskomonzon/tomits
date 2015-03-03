@@ -3,3 +3,11 @@
   <small class="copyright textShadow">&copy; 2015 - OskO</small>
 </footer>
 <!-- /Footer -->
+<!-- Scripts -->
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="/scripts/vendor/flowtype.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
+  <!--script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCl3EgRQb57VI4mjaYEMF3pciS5o0P93bA&amp;sensor=false&amp;extension=.js'></script-->
+  <script src="/scripts/main.min.js"></script>
+<!-- /Scripts -->
