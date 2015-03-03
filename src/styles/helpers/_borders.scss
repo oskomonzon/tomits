@@ -1,0 +1,12 @@
+/*
+ * Clases de apoyo
+ * Bordes
+ */
+
+.border-mid {
+  border: $mid-width white solid;
+}
+
+.rounded {
+  border-radius: 50%;
+}

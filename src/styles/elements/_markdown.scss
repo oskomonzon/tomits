@@ -1,0 +1,14 @@
+/*
+ * Markdown Styles
+ */
+
+.markdown {
+  padding: 0 1em;
+}
+
+blockquote {
+  border-left: 3px $primary solid;
+  color: #666;
+  font-style: italic;
+  padding-left: 0.5em;
+}

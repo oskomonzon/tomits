@@ -1,0 +1,8 @@
+/*
+ * Backgrounds
+ */
+
+.gradient {
+  background-color: $primary;
+  background-image: linear-gradient(0deg, $primary, $secondary);
+}

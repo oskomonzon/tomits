@@ -1,0 +1,123 @@
+/*
+ * Header Styles
+ */
+
+.header {
+  overflow: hidden;
+  padding: 7em 0;
+  position: relative;
+  text-align: center;
+}
+
+.header-title,
+.header-subtitle {
+  color: white;
+}
+
+.header-image {
+  max-height: 128px;
+  max-width: 128px;
+}
+
+/*
+ * LangNav
+ */
+
+.language {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.languageList {
+  list-style: none;
+  margin: 0;
+}
+
+.languageItem {
+  float: right;
+  margin-left: 10px;
+  display: inline-block;
+  a {
+    text-decoration: none;
+    transition: opacity .2s ease-in;
+    &:link    { color: white; opacity: 0.5; }  /* unvisited links */
+    &:visited { color: white; opacity: 0.5; }  /* visited links   */
+    &:hover   { color: white; opacity: 1; }  /* user hovers     */
+    &:active  { color: white; opacity: 0.75; }  /* active links    */
+  }
+}
+
+/*
+ * SocialNav
+ */
+
+.social {
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.socialList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.socialItem {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.socialLink {
+  background-image: url('/images/social.png');
+  background-repeat: no-repeat;
+  display: block;
+  height: 32px;
+  width: 32px;
+}
+
+.socialEmail {
+    background-position: 0 0;
+}
+
+.socialFacebook {
+    background-position: -32px 0;
+}
+
+.socialGoogleplus {
+    background-position: 0 -32px;
+}
+
+.socialLinkedin {
+    background-position: -32px -32px;
+}
+
+.socialSkype {
+    background-position: -64px 0;
+}
+
+.socialTwitter {
+    background-position: -64px -32px;
+}
+
+/*
+ * Helpers/Effects
+ */
+
+.particle {
+  border-radius: 50%;
+  height:50px;
+  position:absolute;
+  width:50px;
+}
+
+.isHidden {
+  visibility: hidden;
+}
+
+span.isHidden {
+  display: none;
+}

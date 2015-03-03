@@ -1,0 +1,15 @@
+/*
+ * Shadows
+ */
+
+.innerBottomShadow {
+  box-shadow: inset 0 -7px 9px -7px rgba(0,0,0,0.7);
+}
+
+.innerTopShadow {
+  box-shadow: inset 0 9px 9px -7px rgba(0,0,0,0.7);
+}
+
+.textShadow {
+  text-shadow: black 0px 0px 10px;
+}
