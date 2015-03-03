@@ -5,13 +5,13 @@
 
 // Variables
 var plan = require('flightplan'),
-    destino = '~/www/osko.com.ar/';
+    destino = '~/www/funksmith.com.ar/';
 
 // Configuración de SSH para producción
 plan.target('production', [
   {
-    host: 'losdelmarote.com',
-    username: 'marote',
+    host: 'hostname.com',
+    username: 'user',
     port: 22,
     agent: process.env.SSH_AUTH_SOCK
   },
@@ -26,7 +26,7 @@ plan.local(function(local) {
   local.log('Ejecutando Flightplan');
   local.log('Realizando transferencia de archivos...');
   // Obtengo el listado de archivos en la carpeta build/
-  var filesToCopy = local.exec('git ls-files --directory build/', {silent: true});
+  var filesToCopy = local.exec('find build -type f', {silent: true});
   // rsync de origen a destino en hosts
   local.transfer(filesToCopy, destino);
 });

@@ -11,7 +11,7 @@ var h = $("#hasParticles").height();
 for (i=0; i<total; i++){
   $("#hasParticles").append('<div class="particle"></div>')
   TweenMax.set($(".particle")[i],
-                { backgroundColor:"hsl(" + random(60,100) + ", 50%, 50%)",
+                { backgroundColor:"hsl(" + random(180,360) + ", 50%, 50%)",
                   opacity:0.75,
                   scale:Random(0.75)+0.25,
                   x:Random(w),
