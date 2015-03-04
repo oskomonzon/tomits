@@ -9,6 +9,7 @@
       <article>
         <h2>{{ this.title }}</h2>
         {{{ this.contents }}}
+        <a class="verMas" href="/{{ this.path }}">Continuar leyendo »</a>
       </article>
     {{/each}}
   </div>

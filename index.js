@@ -50,10 +50,10 @@ Metalsmith(__dirname)
     filter: ['scripts/main.js']  // Minimizar 'main.js' en 'main.min.js'
   }))
   .use(markdown())
-  .use(templates('handlebars'))
   .use(permalinks({
     pattern: ':title' // Generar permalinks: nombreDeColeccion/titulo.
   }))
+  .use(templates('handlebars'))
   .use(sitemap({
     output: 'sitemap.xml', // Ubicación del sitemap
     hostname: 'http://www.example.com.ar', // Hostname para las URL (opcional)
