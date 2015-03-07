@@ -1,4 +1,4 @@
 ---
 title: Blog
-template: blog.hbt
+template: master.hbt
 ---

@@ -1,44 +1,56 @@
 ---
-title: Metalsmith Scaffold
+title: Home
 template: master.hbt
 permalink: false
 ---
-## Funksmith v1.0.0
-Estructura de proyecto básica para generar sitios estáticos en Metalsmith.
-
-### Prerequisitos
-
-* Git
-* node.js
-* Flightplan
-
-### Instalación
-
-Para hacer uso de este repositorio en un nuevo proyecto es necesario clonarlo y reconfigurar el origen:
-```
-git clone https://github.com/oskomonzon/funksmith.git
-git remote rename origin upstream
-git remote add origin URL_A_NUEVO_REPOSITORIO
-```
-
-Instalar dependencias:
-```
-npm install
-```
-
-### Uso
-#### Building
-El proceso de building está declarado en el archivo **index.js**, se ejecuta con el comando:
-```
-node index
-```
-
-#### Deployment
-Para la distribución se utiliza el módulo *Flightplan* de *node.js* a través de **SSH**, la configuración se encuentra en el archivo **flightplan.js**.
-Es recomendable tener acceso al servidor mediante una clave privada sin contraseña para poder ejecutar el proceso sin interrupciones.
-Tanto el equipo local como el servidor remoto deben soportar ***rsync***.
-
-Se lleva a cabo con el comando:
-```
-fly production
-```
+<div class="row">
+  <div class="small small-push fadeInBottom zoomIn">
+    <a href="/images/foto1.jpg" data-lightbox="tomits" data-title="Uma foto">
+      <img src="/images/foto1.jpg" alt="Foto 1" width="100%" height="auto">
+    </a>
+  </div>
+  <div class="mid fadeInBottom">
+    <p class="azul">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+  </div>
+</div>
+<div class="row">
+  <div class="third third-push fadeInBottom">
+    <p class="rojo">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere</p>
+  </div>
+  <div class="small fadeInBottom zoomIn">
+    <a href="/images/foto2.jpg" data-lightbox="tomits" data-title="Outra foto">
+      <img src="/images/foto2.jpg" alt="Foto 2" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+<div class="row">
+  <div class="small small-push fadeInBottom azul"></div>
+  <div class="third fadeInBottom verde"></div>
+</div>
+<div class="row">
+  <div class="mid fadeInBottom marron"></div>
+  <div class="small fadeInBottom azul"></div>
+</div>
+<div class="row">
+  <div class="small fadeInBottom azul"></div>
+  <div class="small fadeInBottom rojo"></div>
+  <div class="small fadeInBottom verde"></div>
+  <div class="small fadeInBottom rojo"></div>
+</div>
+<div class="row">
+  <div class="small fadeInBottom marron"></div>
+  <div class="mid fadeInBottom rojo"></div>
+  <div class="small fadeInBottom right azul"></div>
+</div>
+<div class="row">
+  <div class="mid fadeInBottom marron"></div>
+  <div class="mid fadeInBottom rojo"></div>
+</div>
+<div class="row">
+  <div class="small fadeInBottom azul"></div>
+  <div class="small fadeInBottom marron"></div>
+  <div class="mid fadeInBottom azul"></div>
+</div>
+<div class="row">
+  <div class="full fadeInBottom rojo"></div>
+</div>

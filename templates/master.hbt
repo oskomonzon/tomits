@@ -3,7 +3,7 @@
   {{> head}}
 <body>
   {{> header}}
-  <div class="container markdown">
+  <div class="container flowText">
     {{{ contents }}}
   </div>
   {{> footer}}

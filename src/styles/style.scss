@@ -7,6 +7,8 @@
 @import 'variables';
 @import 'fonts';
 @import 'elf';
+@import 'include-media';
+@import 'lightbox';
 
 // Elements
 @import 'elements/grid';
@@ -22,11 +24,17 @@
 @import 'helpers/position';
 @import 'helpers/shadows';
 @import 'helpers/backgrounds';
+@import 'helpers/efects';
 
 // Generalidades
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Droid Serif', serif;
+  color: #333;
 }
 
 // Print

@@ -1,7 +1,7 @@
 /*
  * Animación de Particulas con Greensock
  */
-
+/*
 // Variables
 var total = 35;
 var w = $("#hasParticles").width();
@@ -35,3 +35,4 @@ function Random(max) {
 function random(min, max) {
   return min + Math.floor( Math.random() * (max - min));
 }
+*/

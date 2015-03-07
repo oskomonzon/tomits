@@ -1,0 +1,41 @@
+/**
+ * Efectos
+ */
+
+img.zoomIn {
+  transition: all 0.5s ease;
+  &:hover {
+    transform:scale(1.15);
+  }
+}
+
+div.zoomIn {
+  position: relative;
+  a {
+    display: block;
+    line-height: 0;
+  }
+  img {
+    transition: all 0.5s ease;
+    &:hover {
+      transform:scale(1.15);
+    }
+  }
+  &:hover:after {
+    background: url('../images/zoom.png') no-repeat center center;
+    bottom: 0;
+    content: "";
+    height: 35px;
+    position: absolute;
+    right: 0;
+    width: 35px;
+  }
+}
+
+.isHidden, .fadeInLeft, .fadeInRight, .fadeInBottom, .fadeInTop {
+  visibility: hidden;
+}
+
+span.isHidden {
+  display: none;
+}

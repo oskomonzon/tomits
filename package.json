@@ -1,7 +1,7 @@
 {
-  "name": "Funksmith",
+  "name": "Tomits Eventos",
   "version": "1.0.0",
-  "description": "Estructura de proyecto básica para construir sitios estáticos con Metalsmith.",
+  "description": "Sitio web institucional para Tomits Eventos.-",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

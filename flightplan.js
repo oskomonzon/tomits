@@ -5,13 +5,13 @@
 
 // Variables
 var plan = require('flightplan'),
-    destino = '~/www/funksmith.com.ar/';
+    destino = '~/www/osko/tomitseventos.com.ar/';
 
 // Configuración de SSH para producción
 plan.target('production', [
   {
-    host: 'hostname.com',
-    username: 'user',
+    host: 'losdelmarote.com',
+    username: 'marote',
     port: 22,
     agent: process.env.SSH_AUTH_SOCK
   },
@@ -32,9 +32,9 @@ plan.local(function(local) {
 });
 
 // Comandos en host remoto
-plan.remote(function(remote) {
+/*plan.remote(function(remote) {
   remote.log('Moviendo contenido de ' + destino + 'build/ a ' + destino);
   remote.exec('cp -R ' + destino + 'build/* ' + destino);
   remote.rm('-rf ' + destino + 'build/');
   remote.log('Flightplan exitoso.-')
-});
+});*/

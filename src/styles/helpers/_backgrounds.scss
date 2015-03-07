@@ -2,7 +2,35 @@
  * Backgrounds
  */
 
+html:before {
+  background: url('../images/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  //filter: blur(10px);
+  z-index: -1;
+  content: "";
+  position: fixed;
+  left: -15px;
+  right: -15px;
+  top: -15px;
+  bottom: -15px;
+}
+
 .gradient {
   background-color: $primary;
-  background-image: linear-gradient(0deg, $primary, $secondary 75%);
+  //background-image: linear-gradient(0deg, $primary, $secondary 75%);
+}
+
+$colores: (
+  'azul' : blue,
+  'rojo' : firebrick,
+  'marron': brown,
+  'verde' : green
+);
+
+@each $color, $codigo in $colores {
+  .#{$color} {
+    background-color: rgba(#{$codigo},.1);
+    background-image: linear-gradient(180deg, rgba(#{$codigo},.1), rgba(#{$codigo},.3) 75%);
+    color: #eee;
+  }
 }

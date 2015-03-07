@@ -1,36 +1,17 @@
 <!-- Header -->
 <header id="hasParticles" class="header innerBottomShadow gradient">
-  <img class="header-image border-mid rounded isHidden fadeInBottom" src="/images/avatar.jpg" alt="OskO" width="200" height="200">
-  <h1 class="header-title isHidden fadeInBottom">Funksmith</h1>
-  <h2 class="header-subtitle isHidden fadeInBottom">[ {{ title }} ]</h2>
-  
-  <!-- Social nav -->
-  <nav class="social">
-    <ul class="socialList">
-      <li class="socialItem isHidden fadeInBottom"><a class="socialLink socialGoogleplus" href="https://plus.google.com/u/0/109106107116299893096/posts" title="Google+" target="_blank"><span class="isHidden">Google+</span></a></li>
-      <li class="socialItem isHidden fadeInBottom"><a class="socialLink socialTwitter" href="http://www.twitter.com/oskomonzon" title="Twitter" target="_blank"><span class="isHidden">Twitter</span></a></li>
-      <li class="socialItem isHidden fadeInBottom"><a class="socialLink socialLinkedin" href="http://ar.linkedin.com/in/oskomonzon" title="LinkedIn" target="_blank"><span class="isHidden">LinkedIn</span></a></li>
-      <li class="socialItem isHidden fadeInBottom"><a class="socialLink socialSkype" href="skype:oskomonzon?chat" title="Skype" target="_blank"><span class="isHidden">Skype</span></a></li>
-      <li class="socialItem isHidden fadeInBottom"><a class="socialLink socialEmail" href="&#109;&#97;&#105;&#108;&#x74;&#x6f;&#x3a;&#x67;&#x6d;&#97;&#x69;&#x6c;&#64;&#x6f;&#x73;&#107;&#x6f;&#x2e;&#99;&#x6f;&#x6d;&#x2e;&#x61;&#114;" title="e-mail" target="_blank"><span class="isHidden">e-mail</span></a></li>
-    </ul>
-  </nav>
-  <!-- /Social nav -->
+  <div class="container">
+    <img class="header-image isHidden left fadeInTop" src="http://placehold.it/50x50" alt="Tomits Eventos" width="50" height="50">
+    <h1 class="header-title isHidden left fadeInTop">Tomits Eventos</h1>
 
-  <!-- Languages nav -->
-  <nav class="language">
-    <ul class="languageList">
-      <li class="languageItem isHidden fadeInTop"><a href="/en/" hreflang="en"><abbr lang="en" title="English">en</abbr></a></li>
-      <li class="languageItem isHidden fadeInTop"><a href="/pt/" hreflang="pt"><abbr lang="pt" title="Portugu&ecirc;s">pt</abbr></a></li>
-      <li class="languageItem isHidden fadeInTop"><a href="/" hreflang="es"><abbr lang="es" title="Espa&ntilde;ol">es</abbr></a></li>
-    </ul>
-  </nav>
-  <!-- /Languages nav -->
-  <!-- Hearts -->
-  <div class="hearts">
-    <span class="heart heart-half"></span>
-    <span class="heart heart-empty"></span>
-    <span class="heart heart-empty"></span>
-  </div>
-  <!-- /Hearts -->
+    <!-- Social nav -->
+    <nav class="social right">
+      <ul class="socialList">
+        <li class="socialItem isHidden fadeInTop"><a class="socialLink socialTwitter" href="http://www.twitter.com/" title="Twitter" target="_blank"><span class="isHidden">Twitter</span></a></li>
+        <li class="socialItem isHidden fadeInTop"><a class="socialLink socialFacebook" href="http://www.facebook.com/" title="Facebook" target="_blank"><span class="isHidden">Facebook</span></a></li>
+      </ul>
+    </nav>
+    <!-- /Social nav -->
+ </div>
 </header>
 <!-- /Header -->
