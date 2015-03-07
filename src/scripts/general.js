@@ -20,3 +20,5 @@ TweenMax.staggerFrom('.fadeInRight', 1, {position: 'relative', rotationY: -90, r
     TweenMax.to($(this).find('.socialLink'), 1, {rotationY:0, ease:Back.easeOut});
   }
 );*/
+
+$('#slider').nivoSlider();
