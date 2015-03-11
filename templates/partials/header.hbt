@@ -1,17 +1,19 @@
 <!-- Header -->
 <header id="hasParticles" class="header innerBottomShadow gradient">
   <div class="container">
-    <img class="header-image isHidden left fadeInTop" src="http://placehold.it/50x50" alt="Tomits Eventos" width="50" height="50">
-    <h1 class="header-title isHidden left fadeInTop">Tomits Eventos</h1>
+    <a href="/">
+      <img class="header-image isHidden left fadeInTop" src="/images/logo.png" alt="Tomits Eventos" width="80" height="80">
+      <h1 class="header-title isHidden left fadeInTop">Tomits Eventos</h1>
+    </a>
 
     <!-- Social nav -->
     <nav class="social right">
       <ul class="socialList">
-        <li class="socialItem isHidden fadeInTop"><a class="socialLink socialTwitter" href="http://www.twitter.com/" title="Twitter" target="_blank"><span class="isHidden">Twitter</span></a></li>
-        <li class="socialItem isHidden fadeInTop"><a class="socialLink socialFacebook" href="http://www.facebook.com/" title="Facebook" target="_blank"><span class="isHidden">Facebook</span></a></li>
+        <li class="socialItem isHidden fadeInTop"><a class="socialLink socialFacebook" href="https://www.facebook.com/pages/TOMITS-EVENTOS-E-RECREA%C3%87%C3%83O/448447201925116" title="Facebook" target="_blank"><span class="isHidden">Facebook</span></a></li>
       </ul>
     </nav>
     <!-- /Social nav -->
  </div>
+ <input type="number" id="stepper" name="stepper" min="1" max="58" value="0" />
 </header>
 <!-- /Header -->

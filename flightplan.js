@@ -5,7 +5,7 @@
 
 // Variables
 var plan = require('flightplan'),
-    destino = '~/www/osko/tomitseventos.com.ar/';
+    destino = '~/www/tomits/';
 
 // Configuración de SSH para producción
 plan.target('production', [
@@ -32,9 +32,9 @@ plan.local(function(local) {
 });
 
 // Comandos en host remoto
-/*plan.remote(function(remote) {
+plan.remote(function(remote) {
   remote.log('Moviendo contenido de ' + destino + 'build/ a ' + destino);
   remote.exec('cp -R ' + destino + 'build/* ' + destino);
   remote.rm('-rf ' + destino + 'build/');
   remote.log('Flightplan exitoso.-')
-});*/
+});

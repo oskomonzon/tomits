@@ -36,8 +36,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Droid Serif', serif;
-  color: #333;
+  //color: #333;
 }
 
 // Print
 @import 'print';
+
+#stepper {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

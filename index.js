@@ -64,7 +64,7 @@ Metalsmith(__dirname)
     }
   }))
   .destination('./build')
-  .use(watch())
+  //.use(watch())
   .use(serve())
   .build(function(err) {
     if (err) { console.log(err); } // Por algún motivo Metalsmith no hace el build sin el error handler.-

@@ -2,4 +2,12 @@
  * Fuentes
  */
 
-//@import url(http://fonts.googleapis.com/css?family=Roboto);
+@font-face {
+  font-family: 'Soopafresh';
+  src:url('../fonts/Soopafresh.ttf.woff') format('woff'),
+    url('../fonts/Soopafresh.ttf.svg#Soopafresh') format('svg'),
+    url('../fonts/Soopafresh.ttf.eot'),
+    url('../fonts/Soopafresh.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}

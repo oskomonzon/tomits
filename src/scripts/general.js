@@ -3,7 +3,7 @@
  */
 
 // Flowtype
-$('.flowText').flowtype({minFont : 16, maxFont : 26 });
+$('.flowText').flowtype({minFont : 16, maxFont : 21.5 });
 
 // Animacion Fade In
 TweenMax.staggerFrom('.fadeInBottom', 1, {position: 'relative', bottom: -30, autoAlpha: 0, ease: Sine.easeIn, delay: .5}, 0.2);
@@ -22,3 +22,15 @@ TweenMax.staggerFrom('.fadeInRight', 1, {position: 'relative', rotationY: -90, r
 );*/
 
 $('#slider').nivoSlider();
+
+$('.color').click(function(e){
+    var color = $(this).css('background-color');
+    $('#hasParticles').css('background-color', color);
+});
+
+$('#stepper').change(function(e){
+  var bg = "url('../images/fondos/"+$(this).val()+".jpg')";
+  $('html').css('background-image', bg);
+});
+
+TweenMax.fromTo('.header-image', .5, {rotation:"5deg", ease:Linear.easeNone },{rotation:"-5deg", ease:Linear.easeNone, yoyo:true, repeat: -1 });

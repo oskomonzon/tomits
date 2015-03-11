@@ -2,17 +2,17 @@
  * Backgrounds
  */
 
-html:before {
+html {
   background: url('../images/bg.jpg') no-repeat center center fixed;
   background-size: cover;
-  //filter: blur(10px);
+  /*filter: blur(10px);
   z-index: -1;
   content: "";
   position: fixed;
   left: -15px;
   right: -15px;
   top: -15px;
-  bottom: -15px;
+  bottom: -15px;*/
 }
 
 .gradient {
@@ -27,10 +27,36 @@ $colores: (
   'verde' : green
 );
 
+$solidos: (
+  'darkAlice' : #1287a8,
+  'alice' : #1496bb,
+  'lightAlice' : #43abc9,
+  'darkKelly' : #93a661,
+  'lightIndigo': #3c6478,
+  'coral' : #f26d21,
+  'darkCoral' : #da621e,
+  'ruby' : #c02f1d,
+  'darkRuby' : #ad2a1a,
+  'emerald' : #2ca065,
+  'lightEmerald' : #47b37c,
+  'amethist': #55568F,
+  'mateLaranja': #E2834B,
+  'tomits': #ABCD3D,
+  'soft' : #8D6C59
+
+);
+
 @each $color, $codigo in $colores {
   .#{$color} {
     background-color: rgba(#{$codigo},.1);
     background-image: linear-gradient(180deg, rgba(#{$codigo},.1), rgba(#{$codigo},.3) 75%);
+    color: #eee;
+  }
+}
+
+@each $color, $codigo in $solidos {
+  .#{$color} {
+    background-color: #{$codigo};
     color: #eee;
   }
 }
