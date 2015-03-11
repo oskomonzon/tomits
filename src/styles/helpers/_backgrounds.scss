@@ -15,6 +15,15 @@ html {
   bottom: -15px;*/
 }
 
+#hasParticles {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .gradient {
   background-color: $primary;
   //background-image: linear-gradient(0deg, $primary, $secondary 75%);

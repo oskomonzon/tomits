@@ -4,6 +4,7 @@
   <link rel="author" href="https://plus.google.com/u/0/109106107116299893096"/>
   <title>Tomits Eventos - {{ title }}</title>
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400|Droid+Serif:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,400' rel='stylesheet' type='text/css'>
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png">

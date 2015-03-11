@@ -16,7 +16,7 @@
 //@include debug;
 
 .container {
-  overflow: hidden;
+  //overflow: hidden;
   max-width: 830px;
   margin: 0 auto;
 }
@@ -26,6 +26,7 @@
   &:first-child {
     margin-top: 20px;
   }
+  font-style: italic;
 }
 
 .small, .mid, .third, .full {

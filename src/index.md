@@ -9,8 +9,9 @@ permalink: false
       <img src="/images/foto1.jpg" alt="Tomits Eventos - Grande Hotel" width="100%" height="auto">
     </a>
   </div>
-  <a href="/seccion"><div class="mid fadeInBottom">
-    <p class="alice">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+  <a href="/seccion"><div class="mid fadeInBottom alice">
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <span class="lermais">Leia mais »</span>
   </div></a>
 </div>
 <div class="row">

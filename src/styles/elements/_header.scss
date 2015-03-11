@@ -79,9 +79,10 @@
 
 .particle {
   border-radius: 50%;
-  height:50px;
+  height:10px;
   position:absolute;
-  width:50px;
+  width:10px;
+  pointer-events:none;
 }
 
 .left {

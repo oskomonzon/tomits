@@ -3,6 +3,7 @@
   {{> head}}
 <body>
   {{> header}}
+  <div id="hasParticles"></div>
   <div class="container flowText">
     {{{ contents }}}
   </div>

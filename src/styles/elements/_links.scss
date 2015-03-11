@@ -13,3 +13,21 @@ a:active  { color: #66BB6A }  /* active links    */
     box-shadow: 0px 5px 20px #222;
   }
 }
+
+.lermais {
+  display: block;
+  padding-right: 10px;
+  position: relative;
+  text-align: right;
+  transition: all .25s ease;
+}
+
+a:hover {
+  .lermais {
+    text-shadow: 0px 0px 10px #000;
+  }
+  /*&>div {
+    transition: all .25s ease;
+    box-shadow: 0px 0px 15px #222;
+  }*/
+}
