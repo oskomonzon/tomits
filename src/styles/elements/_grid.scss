@@ -16,8 +16,9 @@
 //@include debug;
 
 .container {
-  //overflow: hidden;
+  overflow-y: hidden;
   max-width: 830px;
+  min-width: 500px;
   margin: 0 auto;
 }
 

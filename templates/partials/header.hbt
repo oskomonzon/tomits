@@ -1,5 +1,5 @@
 <!-- Header -->
-<header class="header innerBottomShadow gradient">
+<header class="header gradient">
   <div class="container">
     <a href="/">
       <img class="header-image isHidden left fadeInTop" src="/images/logo.png" alt="Tomits Eventos" width="80" height="80">
@@ -14,6 +14,5 @@
     </nav>
     <!-- /Social nav -->
  </div>
- <input type="number" id="stepper" name="stepper" min="1" max="58" value="0" />
 </header>
 <!-- /Header -->

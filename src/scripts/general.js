@@ -28,9 +28,11 @@ $('.color').click(function(e){
     $('#hasParticles').css('background-color', color);
 });
 
-$('#stepper').change(function(e){
+/*$('#stepper').change(function(e){
   var bg = "url('../images/fondos/"+$(this).val()+".jpg')";
   $('html').css('background-image', bg);
 });
+*/
 
+// Solzinho
 TweenMax.fromTo('.header-image', .5, {rotation:"5deg", ease:Linear.easeNone },{rotation:"-5deg", ease:Linear.easeNone, yoyo:true, repeat: -1 });
